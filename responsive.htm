@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Web Responsiva</title>
+    <style>
+        /* Mobile First: Estilos para dispositivos móveis */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Tamanho de fonte padrão para mobile */
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            background-color: #ddd;
+            border-radius: 4px;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Adaptação para telas maiores: Tablets */
+        @media (min-width: 600px) {
+            body {
+                font-size: 18px; /* Aumenta o tamanho da fonte em tablets */
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            nav ul li {
+                margin-bottom: 0;
+            }
+
+            nav ul li a {
+                padding: 12px;
+            }
+        }
+
+        /* Adaptação para telas maiores: Desktop */
+        @media (min-width: 992px) {
+            body {
+                font-size: 20px; /* Aumenta ainda mais o tamanho da fonte em desktops */
+                padding: 20px;
+            }
+
+            nav ul {
+                justify-content: flex-start;
+            }
+
+            nav ul li {
+                margin-right: 15px;
+            }
+
+            main {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            article {
+                width: 65%;
+            }
+
+            aside {
+                width: 30%;
+                background-color: #eee;
+                padding: 15px;
+                border-radius: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Responsivo</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Conteúdo Principal</h2>
+            <p>Este é o conteúdo principal da página. Ele se adapta de acordo com o tamanho da tela.</p>
+        </article>
+
+        <aside>
+            <h3>Barra Lateral</h3>
+            <p>Esta é uma barra lateral que aparece ao lado do conteúdo em telas maiores.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2024 Meu Site Responsivo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Atividade Prática: Criação de Menu com Formulário
+Objetivo:
+Criar um menu de navegação simples usando HTML e CSS, acompanhado por um formulário de contato integrado na estrutura do menu.
+
+Instruções:
+Estrutura HTML:
+
+Crie um arquivo HTML chamado index.html.
+Dentro do arquivo, crie uma estrutura básica de HTML com <!DOCTYPE html>, <html>, <head>, <title>, e <body>.
+Cabeçalho e Menu:
+
+Adicione uma barra de navegação (<nav>) no topo da página com os seguintes links:
+Home
+About
+Services
+Contact
+Dentro do menu, insira um formulário de login com os campos:
+Campo de texto para Email (<input type="email">)
+Campo de texto para Senha (<input type="password">)
+Botão de Login (<input type="submit">)
+Estilização com CSS:
+
+Crie um arquivo CSS chamado styles.css.
+Estilize o menu para que ele tenha uma cor de fundo, espaçamento adequado entre os links e o formulário, e que o texto seja legível.
+O formulário deve estar alinhado à direita da barra de navegação.
+Use pseudo-classes para adicionar efeitos de hover nos links do menu.

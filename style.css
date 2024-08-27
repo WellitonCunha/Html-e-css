@@ -1,0 +1,17 @@
+@import url("style2.css");
+h1 {
+    color:red;
+}
+p {
+    color:blue;
+    font-size: 100%;
+}
+input[type="text"] {
+    color:orange;
+}
+.l_nome {
+    color:blueviolet;
+}
+#id_email {
+    color:aqua;
+}
